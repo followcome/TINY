@@ -5,7 +5,7 @@ import { faCompass, faHeart, faHouse, faTrophy, faBusinessTime ,faStar, faDownlo
 export const KebBtn=()=>{
     return(
         <div className='max-w-6xl mx-auto bg-[#353940] rounded-3xl shadow-lg py-8 mt-4 '>
-            <div className="h-auto grid grid-cols-[110px,450px,150px] gap-4 justify-center items-center  border-8 border-gray-500 rounded-3xl max-w-3xl mx-auto m-0 pl-0">
+            <div className="h-auto grid grid-cols-[105px,450px,150px] gap-4 justify-center items-center  border-8 border-gray-500 rounded-3xl max-w-3xl mx-auto m-0 px-8 ">
             <div className=" bg-[#353940] pl-0 m-0 py-3  h-full ">
             <div className="text-white font-bold text-slate-500 space-x2 text-2xl ml-0 m-0 pl-0 p">TINY</div>
             <div className="text-white font-bold text-slate-200 text-sm ">MOVIEZ</div>
@@ -95,10 +95,11 @@ export const KebBtn=()=>{
                 <div className='text-white px-2 text-sm font-bold'>Logout</div>
                </div>
             </div>
-           <div className='grid grid-col-3  justify-self-start'>
-           <div className=" bg-[#0D0D0D] flex py-2 h-full">
+            <div className='grid grid-col-3 h-full'>
+            <div className=' '>
+           <div className=" bg-[#0D0D0D] flex py-2 ">
     
-    <div className="text-white font-bold text-slate-500 space-x-2 text-lg px-5 mt-8 font-semibold">Movies</div>
+    <div className="text-white font-bold text-slate-500 space-x-2 text-lg px-5 mt-8 font-semibold ">Movies</div>
     <div className='text-bold mt-9 px-4  underline text-[#00B9AE]  font-semibold'>TV Shows</div>
     <div className='text-bold mt-9 px-4   text-white font-semibold'>Anime</div>
     <div className='relative '>
@@ -123,22 +124,25 @@ export const KebBtn=()=>{
         
     </div>
     <div className='text-white m px-8 bg-[#0D0D0D] py-8'>Popular on TinyMoviez</div>
-    <div className='relative bg-[#0D0D0D] flex gap-2 py-4 px-8'>
-        <img className='h-1/3 w-46 rounded-xl ' src='https://miro.medium.com/v2/resize:fit:700/0*r1PawBH3aXCavicd.jpeg'></img>
-        <img className='h-1/3 w-46 rounded-xl' src='https://miro.medium.com/v2/resize:fit:700/0*r1PawBH3aXCavicd.jpeg'></img>
-        <img className='h-1/3 w-46 rounded-xl' src='https://miro.medium.com/v2/resize:fit:700/0*r1PawBH3aXCavicd.jpeg'></img>
+    <div className='relative bg-[#0D0D0D] flex gap-2 py-4 px-0'>
+        <img className='h-1/3 w-36 rounded-xl ' src='https://miro.medium.com/v2/resize:fit:700/0*r1PawBH3aXCavicd.jpeg'></img>
+        <img className='h-46 w-36 rounded-xl' src='https://static1.srcdn.com/wordpress/wp-content/uploads/2023/09/denzel-washington-hold-guns-in-the-equalizer-2.jpg'></img>
+        <img className='h-46 w-36 rounded-xl' src='https://static.vecteezy.com/system/resources/thumbnails/022/772/031/small_2x/happy-father-s-day-a-dad-in-a-superhero-costume-is-holding-a-daughter-generate-ai-photo.jpeg'></img>
         <div className='absolute'>
-            <div className='text-white'>Loki</div>
+            <div className='text-[#00B9AE]'>Loki</div>
             <div className='text-white mt-20'>6 Ep</div>
+            
             
 
         </div>
+        
 
     </div>
-           </div>
+           </div> 
+                
+                </div>           
             
-            
-            <div className=" bg-red-300">3</div>
+            <div className=" bg-red-300 h-full">3</div>
         </div>
         </div>
     )
