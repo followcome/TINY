@@ -1,11 +1,11 @@
 
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCompass, faHeart, faHouse, faTrophy, faBusinessTime ,faStar, faDownload, faGear, faBook } from '@fortawesome/free-solid-svg-icons';
+import { faCompass, faHeart, faHouse, faTrophy, faBusinessTime ,faStar, faDownload, faGear, faBook,faBell ,faPlus} from '@fortawesome/free-solid-svg-icons';
 export const KebBtn=()=>{
     return(
-        <div className='max-w-6xl mx-auto bg-[#353940] rounded-3xl shadow-lg py-8 mt-4 '>
-            <div className="h-auto grid grid-cols-[105px,450px,150px] gap-4 justify-center items-center  border-8 border-gray-500 rounded-3xl max-w-3xl mx-auto m-0 px-8 ">
+        <div className='max-w-6xl mx-auto bg-[#353940] rounded-3xl shadow-lg py-8 mt-1 '>
+            <div className="h-auto grid grid-cols-[105px,470px,170px] gap-4 justify-center items-center  border-8 border-gray-500 rounded-3xl max-w-4xl mx-auto m-0 px-8 ">
             <div className=" bg-[#353940] pl-0 m-0 py-3  h-full ">
             <div className="text-white font-bold text-slate-500 space-x2 text-2xl ml-0 m-0 pl-0 p">TINY</div>
             <div className="text-white font-bold text-slate-200 text-sm ">MOVIEZ</div>
@@ -142,8 +142,56 @@ export const KebBtn=()=>{
                 
                 </div>           
             
-            <div className=" bg-red-300 h-full">3</div>
+            <div className=" bg-[#353940] h-full">
+                <div className='flex'>
+                    <div className='bg-slate-500 text-white mt-2 px-4 rounded-lg py-2'>
+                    <FontAwesomeIcon icon={faBell} />
+                    </div>
+                    <div className='text-white px-6 mt-4 font-medium'>Samantha</div>
+                    <img className='w-1/4 h-10 rounded-2xl mt-4 ' src='https://as2.ftcdn.net/v2/jpg/02/44/62/49/1000_F_244624960_sDgK6hwVlngKM27CkIPuyTc50xRxyhnh.jpg'></img>
+                </div>
+            <div className='flex space-x-8'>
+            <div className='text-white mt-14 px-o'>Continue</div>
+            <div className='text-white mt-14 text-slate-300 '>See More</div>
+            </div>
+            <div className='relative flex gap-2'>
+            <img className='mt-4 w-36' src='https://4.bp.blogspot.com/-4ebpfgILGF0/XGkNfBnvhOI/AAAAAAAARJs/YK-LdIn9574t_x86EvrpzejLJc5QoVZdACLcBGAs/s1600/Bandersnatch05.jpg'></img>
+            <div className='absolute space-x-11'>
+                <button className='bg-gray-500 rounded-lg py-1 px-1 mt-20  text-white font-medium'>Drop</button>
+                <button className='bg-[#00B9AE] px-1 rounded-lg mt-10 font-semibold'>Watch</button>
+
+             </div>
+             <img className='w-16 bg-black py-6 rounded-lg  mt-8 gap' src='https://assets-prd.ignimgs.com/2024/01/24/upcomingvideogamemoviestvshows-blogroll-1706138962779.jpg?width=1280'></img>
+            </div>
+            <div className='mt-10 flex '>
+            <div className='text-white font-medium text-slate-700'>Top Rated</div>
+            <div className='text-white px-2 text-slate-300'>See More</div>
+            </div>
+            <div className='flex relative gap-2'>
+                <img className='mt-8 w-46' src='https://assets-prd.ignimgs.com/2024/01/24/upcomingvideogamemoviestvshows-blogroll-1706138962779.jpg?width=1280'></img>
+            <div className='absolute space-x-10'>
+            <FontAwesomeIcon className='text-white mt-24 bg-gray-500 px-2 rounded-md py-1 ml-2' icon={faPlus} />
+            <button className='bg-[#00B9AE] px-4 rounded-lg mt-10 font-semibold py-1'>Watch</button>
+            </div>
+            <img className='w-10 bg-black py-2 rounded-lg  mt-8 gap' src='https://m.media-amazon.com/images/M/MV5BODQyMDkyOTE2MF5BMl5BanBnXkFtZTgwNDQ1NTQwMTI@._V1_UY1200_CR90,0,630,1200_AL_.jpg'></img>
+            </div>
+            <div className='mt-14 flex gap-8'>
+            <div className='text-white font-medium text-slate-700'>Genres</div>
+            <div className='text-white px-2 text-slate-300'>See More</div>
+            </div>
+            <div className='flex relative gap-2'>
+                <img className='mt-8 w-46' src='https://variety.com/wp-content/uploads/2023/12/Community.jpg?w=1000'></img>
+                <div className='absolute space-x-11'>
+                <button className='bg-gray-500 rounded-lg py- px-2 mt-28  text-white font-medium'>+</button>
+                <button className='bg-[#00B9AE] px-4 rounded-lg mt- font-semibold'>Watch</button>
+
+             </div>
+            <img className='w-10 bg-black py-2 rounded-lg  mt-8 gap' src='https://m.media-amazon.com/images/M/MV5BODQyMDkyOTE2MF5BMl5BanBnXkFtZTgwNDQ1NTQwMTI@._V1_UY1200_CR90,0,630,1200_AL_.jpg'></img>
+            </div>
+            </div>
+            
         </div>
         </div>
+        
     )
 }
