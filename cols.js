@@ -1,4 +1,4 @@
-
+ package.json
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCompass, faHeart, faHouse, faTrophy, faBusinessTime ,faStar, faDownload, faGear, faBook,faBell ,faPlus} from '@fortawesome/free-solid-svg-icons';
